@@ -38,6 +38,12 @@ header .logo {
     text-transform: upoercase;
     font-weight: 800;
     letter-spacing: 1px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+header .logo:hover{
+    transform: scale(1.2);
 }
 
 header .navigation a {
